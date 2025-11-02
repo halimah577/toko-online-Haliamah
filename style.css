@@ -1,0 +1,42 @@
+:root{
+  --brand:#ff4d6d;
+}
+body{
+  background:#f8f9fb;
+}
+.navbar-brand .brand-title{
+  font-weight:700; 
+  font-size:1.25rem; 
+  color:var(--brand)
+}
+.card img.product-img{
+  height:180px; 
+  object-fit:scale-down;
+  padding:5px;
+  border-radius:8px
+}
+.product-card{
+  transition:transform .12s ease, 
+  box-shadow .12s ease
+}
+.product-card:hover{
+  transform:translateY(-6px); 
+  box-shadow:0 10px 30px rgba(0,0,0,.08)
+}
+.sticky-top .card{
+  border-radius:12px
+}
+.btn-checkout{
+  background:linear-gradient(90deg,#34c759,#0ea5a8); 
+  color:white
+}
+.price{
+  font-weight:700
+}
+.small-muted{
+  color:#6c757d; font-size:.9rem
+}
+
+
+
+
